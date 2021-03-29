@@ -3,7 +3,7 @@ Implementation of genetic algorithm for parallel computing using CUDA/C++ that f
 
 Neural network is programmed from scratch (multiplication and summation of neurons, input, output etc.)
 
-Evaluation, crossover and mutation are done using parallel computing on graphic card (GPU) to increase computation time.
+Evaluation, crossover and mutation are done using parallel computing on graphic card (GPU) to decrease computation time.
 
 I could not use structures like queue, vectors etc. because CUDA is not compatible with it, so I had to operate on basic arrays and implement many functions myself.
 
